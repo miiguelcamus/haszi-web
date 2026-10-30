@@ -54,7 +54,7 @@ html:not(.eu) .lang [data-set=es],html.eu .lang [data-set=eu]{background:var(--p
 
 .name{background:var(--peri);color:#fff}
 .nw{max-width:1040px;margin:0 auto;padding:clamp(36px,5vw,56px) clamp(16px,4vw,48px);display:grid;grid-template-columns:auto 1fr;gap:clamp(20px,4vw,48px);align-items:center}
-.big{font-family:Italiana,serif;font-size:clamp(90px,12vw,150px);line-height:.8;color:var(--cream)}
+.bigmk{font-family:Italiana,serif;font-size:clamp(90px,12vw,150px);line-height:.8;color:var(--cream)}
 .name .kick{color:var(--cream)}
 .nt{font-size:clamp(17px,1.6vw,20px);font-weight:300;max-width:60ch}
 .nt b{font-weight:600;color:var(--cream)}
@@ -81,13 +81,13 @@ html:not(.eu) .lang [data-set=es],html.eu .lang [data-set=eu]{background:var(--p
 .steps li::before{content:"";position:absolute;top:-6px;left:0;width:11px;height:11px;border-radius:50%;background:var(--cream);border:1.5px solid var(--navy)}
 .steps p{font-size:15px;color:#555b7c;margin-top:6px}
 
-.clin{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-template-rows:auto auto;gap:14px}
+.clin{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:14px}
 .ph{border-radius:var(--r);overflow:hidden;background:var(--lav2);position:relative}
 .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
 .ph:hover img{transform:scale(1.04)}
-.ph.a{grid-row:span 2;min-height:440px}
+.ph.a{grid-row:span 2;min-height:420px}
 .ph.b,.ph.c{aspect-ratio:1}
-.ph.d{aspect-ratio:1}
+.ct{grid-column:2/4}
 .ph span{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.92);color:var(--navy);font-size:12.5px;font-weight:600;padding:5px 11px;border-radius:99px}
 .ct{background:var(--navy);color:#e9e9f6;border-radius:var(--r);padding:24px;display:flex;flex-direction:column;justify-content:space-between;gap:16px}
 .ct b{color:var(--cream)}
@@ -131,6 +131,7 @@ address{font-style:normal;font-weight:500;font-size:18px;margin:14px 0 18px;colo
  .svcs{grid-template-columns:1fr 1fr}
  .steps{grid-template-columns:1fr 1fr;row-gap:28px}
  .clin{grid-template-columns:1fr 1fr}
+ .ct{grid-column:span 2}
  .ph.a{grid-row:auto;grid-column:span 2;min-height:300px}
  .rgrid{columns:2}
  .contact{grid-template-columns:1fr}
@@ -141,7 +142,7 @@ address{font-style:normal;font-weight:500;font-size:18px;margin:14px 0 18px;colo
  .svc.big{grid-column:auto;grid-row:auto}
  .steps{grid-template-columns:1fr}
  .nw{grid-template-columns:1fr;text-align:left}
- .big{font-size:84px}
+ .bigmk{font-size:84px}
  .rgrid{columns:1}
  .ct{grid-column:span 2}
  .btn{flex:1 1 100%;justify-content:center}
